@@ -1,0 +1,43 @@
+// color
+$color-piper: #be4923;
+$color-wildSand: #f5f5f5;
+$color-blackPearl: #072236;
+$color-hotToddy: #a69304;
+$color-mustard: #ffd84c;
+$color-mondo: #4e3a31;
+$color-patina: #3c3a3a;
+$color-doveGray: #d4cfcf;
+$color-mojo: #c84b31;
+$color-anzac: #e5ae4e;
+$color-white: #ffffff;
+$color-psinkSwan: #c2b7b7;
+
+// font
+$font-raleway: "Raleway", sans-serif;
+$font-roboto: "Roboto", sans-serif;
+$font-anton: "Anton", sans-serif;
+
+// screen size
+$screen-size-mobile: 881px;
+
+@mixin title-font-style {
+  font-family: $font-raleway;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+@mixin text-font-style {
+  font-family: $font-roboto;
+  font-size: 0.8rem;
+}
+
+@mixin button-style {
+  border: none;
+  border-radius: 5px;
+  background-color: $color-patina;
+  color: $color-wildSand;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
